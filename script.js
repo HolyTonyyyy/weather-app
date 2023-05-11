@@ -6,6 +6,9 @@ const weatherElement = document.querySelector(".weather");
 const temperatureElement = document.querySelector(".temperature");
 const iconElement = document.querySelector(".icon");
 
+// to get the weather 
+
+// unable to get weather because of error
 function getWeather(city) {
   fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`)
     .then((response) => {
